@@ -1,0 +1,118 @@
+body {
+  background-image: url("https://i.pinimg.com/736x/73/39/ae/7339aecbf55693bc04010eb490662485.jpg");
+  background-size: cover;}
+
+h1 {text-align: center;
+color: rgb(249, 252, 250);
+background-color: rgb(10, 10, 10);}
+
+.titulo {color: rgb(0, 255, 64);
+font-size: 29px;}
+
+h2{color: rgb(248, 250, 249);
+font-size: 24px;
+text-align: center;
+background-color: rgb(12, 12, 12);
+font-family:'Arial Narrow Bold', sans-serif;
+letter-spacing:10px;}
+
+.inicio {color: rgb(234, 241, 241);font-size: 62px;}
+
+#redes {color: rgb(234, 241, 241);text-align: center;}
+#redes a{font-size:80px;}
+
+h3{color: rgb(248, 250, 249);
+font-size: 24px;
+text-align: center;}
+
+div{color: rgb(248, 250, 249);
+font-size: 24px;
+text-align: center;}
+
+.ocultar{display: none;}
+
+p {color: rgb(5, 239, 247);
+text-align: center;
+font-size: 30px;} 
+
+#servicios {color: rgb(234, 241, 241);font-size: 25px;}
+
+#sobre-nosotros {color: rgb(234, 241, 241);font-size: 30px;}
+
+ul{color: rgb(234, 241, 241);font-size: 25px;
+  list-style: none;
+    text-align:center}
+
+a{color: rgb(234, 241, 241);font-size: 25px;;font-size: 25px;
+    text-align:center;}
+
+TH{color: rgb(88, 243, 5);font-size: 25px;
+    text-align:center;}
+
+a:hover{color: rgb(34, 253, 5);font-size: 25px;
+    text-align:center}
+
+
+nav{color: rgb(34, 253, 5);font-size: 25px;
+    text-align:center}
+
+table{color: rgb(253, 125, 5);font-size: 25px;
+ text-align:flex-start;
+ background-color:rgb(10, 10, 10)}
+
+.inicio{
+  justify-content:center;
+    display: flex;
+  color: rgb(34, 253, 5);
+  font-size: 1000px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav-links {
+  
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-links a{
+text-decoration:none;
+   }
+
+.buo
+{justify-content:center;
+  align-items: center;
+display:center
+;
+}
+.descripcion {
+   align-items: center;
+  justify-content:center;
+    display: flex;
+  color: rgb(240, 243, 239);}
+
+.comprar{ 
+  display: flex;
+  align-items: flex-start;
+  justify-content:center;
+}
+
+.imagen  {justify-content:flex-start;
+  order: 1;
+  flex: 1;
+  padding: 0px 0px 0px 100px;
+}
+
+.GENERAL{ justify-content: flex-start;
+  display:flex;
+  align-items: center;
+
+
+}
+.info{display: center;
+  flex-direction: column; 
+order: 2;
+flex: content;
+justify-content: center;
+padding: 0px 500px 440px 0px;
+}
