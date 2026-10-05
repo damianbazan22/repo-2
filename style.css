@@ -21,8 +21,8 @@ letter-spacing:10px;}
 #redes {color: rgb(234, 241, 241);text-align: center;}
 #redes a{font-size:80px;}
 
-h3{color: rgb(248, 250, 249);
-font-size: 24px;
+h3{color: rgb(11, 253, 3);
+font-size: 50px;
 text-align: center;}
 
 div{color: rgb(248, 250, 249);
@@ -95,6 +95,7 @@ display:center
   display: flex;
   align-items: flex-start;
   justify-content:center;
+  background-color:black ;
 }
 
 .imagen  {justify-content:flex-start;
@@ -115,4 +116,19 @@ order: 2;
 flex: content;
 justify-content: center;
 padding: 0px 500px 440px 0px;
+}
+:root {
+--color-principal: #03f840;
+--color-secundario:#030303
+
+}
+ 
+
+.portad-contenido{ background-image: url(https://img.magnific.com/foto-gratis/fondo-psicodelico-multicolor_23-2148805320.jpg);background-color: lightgray;
+padding: 20px;
+margin: 30px;
+border: 1px solid black;
+background-size: cover;
+
+
 }
