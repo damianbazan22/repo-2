@@ -9,7 +9,7 @@ background-color: rgb(10, 10, 10);}
 .titulo {color: rgb(0, 255, 64);
 font-size: 29px;}
 
-h2{color: rgb(248, 250, 249);
+h2{color: rgb(51, 240, 76);
 font-size: 24px;
 text-align: center;
 background-color: rgb(12, 12, 12);
@@ -21,19 +21,28 @@ letter-spacing:10px;}
 #redes {color: rgb(234, 241, 241);text-align: center;}
 #redes a{font-size:80px;}
 
-h3{color: rgb(11, 253, 3);
+h3{color: rgb(13, 255, 5);
 font-size: 50px;
-text-align: center;}
+text-align: center;
+ text-shadow:
+    -1px -1px 3px #999,
+    0 0 1px rgb(47, 245, 7)139, 30139, 35139, 7139, 58,
+    1px 1px 1px rgb(60, 241, 5),
+    2px 2px 1px #555,
+    3px 3px 1px #222,
+    4px 4px 1px #000;
+}
 
-div{color: rgb(248, 250, 249);
+div{color: rgb(6, 241, 65);
 font-size: 24px;
 text-align: center;}
 
 .ocultar{display: none;}
 
-p {color: rgb(5, 239, 247);
+.p {color: rgb(5, 239, 247);
 text-align: center;
-font-size: 30px;} 
+font-size: 30px
+} 
 
 #servicios {color: rgb(234, 241, 241);font-size: 25px;}
 
@@ -43,14 +52,15 @@ ul{color: rgb(234, 241, 241);font-size: 25px;
   list-style: none;
     text-align:center}
 
-a{color: rgb(234, 241, 241);font-size: 25px;;font-size: 25px;
-    text-align:center;}
+a{color: rgb(76, 238, 36);font-size: 60px;
+    text-align:center; text-shadow:
+    0 0 1px rgb(5, 7, 5),
+    1px 1px 1px rgb(0, 255, 13),
+    4px 4px 1px #000}
 
 TH{color: rgb(88, 243, 5);font-size: 25px;
     text-align:center;}
 
-a:hover{color: rgb(34, 253, 5);font-size: 25px;
-    text-align:center}
 
 
 nav{color: rgb(34, 253, 5);font-size: 25px;
@@ -69,22 +79,20 @@ table{color: rgb(253, 125, 5);font-size: 25px;
 }
 
 .nav-links {
-  
   display: flex;
   align-items: center;
   gap: 40px;
 }
 
 .nav-links a{
-text-decoration:none;
-   }
+text-decoration:none; }
 
 .buo
 {justify-content:center;
   align-items: center;
-display:center
-;
+display:center;
 }
+
 .descripcion {
    align-items: center;
   justify-content:center;
@@ -98,10 +106,22 @@ display:center
   background-color:black ;
 }
 
-.imagen  {justify-content:flex-start;
+.imagen {justify-content:flex-start;
   order: 1;
   flex: 1;
   padding: 0px 0px 0px 100px;
+ 
+}
+#fotos {justify-content:flex-start;
+  order: 1;
+  flex: 1;
+  padding: 0px 0px 0px 100px;
+  box-shadow: 4px 4px 8px rgba(7, 15, 7, 0.3)
+ 
+}
+#fotos img{
+  height: 20rem;
+  width: 20rem ;
 }
 
 .GENERAL{ justify-content: flex-start;
@@ -126,7 +146,7 @@ padding: 0px 500px 440px 0px;
 
 .portad-contenido{ background-image: url(https://img.magnific.com/foto-gratis/fondo-psicodelico-multicolor_23-2148805320.jpg);background-color: lightgray;
 padding: 20px;
-margin: 30px;
+margin: 10px;
 border: 1px solid black;
 background-size: cover;
 
