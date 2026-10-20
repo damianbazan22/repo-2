@@ -116,7 +116,10 @@ display:center;
   order: 1;
   flex: 1;
   padding: 0px 0px 0px 100px;
-  box-shadow: 4px 4px 8px rgba(7, 15, 7, 0.3)
+  box-shadow: 4px 4px 8px rgba(7, 15, 7, 0.3);
+  border-radius:30; 
+  ;
+
  
 }
 #fotos img{
@@ -152,3 +155,18 @@ background-size: cover;
 
 
 }
+.consultas {
+  width: 100%;
+  max-width: 450px;
+  margin: 20px auto;
+  padding: 25px;
+  background-color: #06eb65;
+  border: 2px solid #060606;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;}
+.consultas label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;}
